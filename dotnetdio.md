@@ -1,4 +1,4 @@
-# Principios e primeiros passos em .NET ? 
+# Principios e primeiros passos em .NET âŒ¨ 
 
-Aqui registra os resumos e configurações para uso da linguagem.
+Aqui registra os resumos e configuraÃ§Ãµes para uso da linguagem.
 
