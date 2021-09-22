@@ -8,7 +8,8 @@ namespace Revisão
 
         static void Main(string[] args)
         {
-
+           Aluno[] aluno = new Aluno[5];
+           var indicealuno = 0;
            string opcaoUsuario = ObterOpcaoUsuario();
 
           while (opcaoUsuario.ToUpper() != "X")
@@ -17,7 +18,22 @@ namespace Revisão
               switch (opcaoUsuario)
               {
                 case "1":
-                   //T0DO: adiconar aluno
+                  Console.WriteLine("Infome o nome do Aluno:");
+                  var aluno = new Aluno();
+                  aluno.Aluno = Console.ReadLine();
+
+                  Console.WriteLine("Informe a nota do aluno:");
+
+                  if (decimal.TryParse(Console.ReadLine(),out decimal nota))
+               { 
+                  aluno.Nota = nota;         
+               }
+                  else
+                  {
+                      throw new ArgumentException("Valor da nota deve ser decimal");
+                  }
+
+                  alunos[]
                    break;
                 case "2":
                    //TODO: listar alunes 
