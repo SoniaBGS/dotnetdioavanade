@@ -3,5 +3,28 @@
     // Focalizar para exibir as descrições dos atributos existentes.
     // Para obter mais informações, acesse: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
-    "configurations": []
+    "configurations": [
+        {
+            "name": ".NET Core Launch (consiole)",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            // If you have changend target frameworks, make sure to update the program path.
+            "program": "${workspaceFolder}/bin/Debug/netcoreapp3.1/Revisão.dll",
+            "args":[],
+            "cwd":"${workspaceFolder}",
+            // For more information about the 'console' field, see https://code.visualstudio.com/?WT.mc_id=devcloud-00000-cxa
+            "console": "integratedTerminal",
+            "stopAtEntry": false
+
+        },
+        {
+          "name": ".NET Core Attach",
+            "type": "coreclr",
+            "request": "attach",
+            "processId":"${command:pickProcess}"
+        }   
+    ]
+
+    
 }
