@@ -46,6 +46,7 @@ namespace Revisão
           Console.WriteLine();
 
           string opcaoUsuario = Console.ReadLine();
+          Console.WriteLine();
           return opcaoUsuario;
       }
    
