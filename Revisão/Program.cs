@@ -60,7 +60,7 @@ namespace Revisão
                    }
 
                    var mediaGeral = notaTotal / nrAlunos;
-                   Conceito conceitoGeral;
+                   Conceito conceitoGeral; 
 
                    if (mediaGeral < 2)
                    {
