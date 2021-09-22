@@ -60,8 +60,8 @@ namespace Revisão
                    }
 
                    var mediaGeral = notaTotal / nrAlunos;
-                   Console.WriteLine($"MÉDIA GERAL: {mediaGeral}")
-                   
+                   Console.WriteLine($"MÉDIA GERAL: {mediaGeral}");
+
                    break;
                 default:
                    throw new ArgumentOutOfRangeException();

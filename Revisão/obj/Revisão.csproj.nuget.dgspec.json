@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\workspace\\dotnet\\Revisão\\Revisão.csproj": {}
+    "C:\\workspace\\dotnet\\Revisão\\Revisão.csproj": {}
   },
   "projects": {
-    "c:\\workspace\\dotnet\\Revisão\\Revisão.csproj": {
+    "C:\\workspace\\dotnet\\Revisão\\Revisão.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\workspace\\dotnet\\Revisão\\Revisão.csproj",
+        "projectUniqueName": "C:\\workspace\\dotnet\\Revisão\\Revisão.csproj",
         "projectName": "Revisão",
-        "projectPath": "c:\\workspace\\dotnet\\Revisão\\Revisão.csproj",
+        "projectPath": "C:\\workspace\\dotnet\\Revisão\\Revisão.csproj",
         "packagesPath": "C:\\Users\\sbgs\\.nuget\\packages\\",
-        "outputPath": "c:\\workspace\\dotnet\\Revisão\\obj\\",
+        "outputPath": "C:\\workspace\\dotnet\\Revisão\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\sbgs\\AppData\\Roaming\\NuGet\\NuGet.Config"
