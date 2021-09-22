@@ -5,12 +5,12 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": ".NET Core Launch (consiole)",
+            "name": ".NET Core Launch (console)",
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build",
             // If you have changend target frameworks, make sure to update the program path.
-            "program": "${workspaceFolder}/bin/Debug/netcoreapp3.1/Revisão.dll",
+            "program": "${workspaceFolder}/bin/Debug/netcoreapp5.4/Revisão.dll",
             "args":[],
             "cwd":"${workspaceFolder}",
             // For more information about the 'console' field, see https://code.visualstudio.com/?WT.mc_id=devcloud-00000-cxa

@@ -40,7 +40,7 @@ namespace Revisão
                 case "2":
                    foreach(var a in alunos)
                    {
-                      if(!a.Name.Equals(""))
+                      if(!string.IsNullOrEmpty(a.Name))
                       {
                       Console.WriteLine($"ALUNO: {a.Name} - NOTA: {a.Nota}");
                       }
