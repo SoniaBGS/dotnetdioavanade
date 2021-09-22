@@ -33,7 +33,9 @@ namespace Revisão
                       throw new ArgumentException("Valor da nota deve ser decimal");
                   }
 
-                  alunos[]
+                  alunos[indiceAluno] = aluno;
+                  indiceAluno++;
+                  
                    break;
                 case "2":
                    //TODO: listar alunes 
