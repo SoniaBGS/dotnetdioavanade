@@ -1,6 +1,6 @@
 namespace Revisão
 {
-    public enum conceito
+    public enum Conceito
     {
        A,
 
@@ -11,6 +11,6 @@ namespace Revisão
        D,   
 
        E,
-        
+
     }
 }
