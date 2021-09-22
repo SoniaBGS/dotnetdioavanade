@@ -20,11 +20,11 @@ namespace Revisão
                 case "1":
                   Console.WriteLine("Infome o nome do Aluno:");
                   var aluno = new Aluno();
-                  aluno.Aluno = Console.ReadLine();
+                  aluno.Nome = Console.ReadLine();
 
                   Console.WriteLine("Informe a nota do aluno:");
 
-                  if (decimal.TryParse(Console.ReadLine(),out decimal nota))
+                  if (decimal.TryParse(Console.ReadLine(), out decimal nota))
                { 
                   aluno.Nota = nota;         
                }
@@ -33,9 +33,9 @@ namespace Revisão
                       throw new ArgumentException("Valor da nota deve ser decimal");
                   }
 
-                  alunos[indiceAluno] = aluno;
+                  alunos [indiceAluno] = aluno;
                   indiceAluno++;
-                  
+
                    break;
                 case "2":
                    //TODO: listar alunes 
