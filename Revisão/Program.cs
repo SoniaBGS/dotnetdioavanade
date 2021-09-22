@@ -8,7 +8,7 @@ namespace Revisão
 
         static void Main(string[] args)
         {
-           Aluno[] aluno = new Aluno[5];
+           Aluno[] alunos = new Aluno[5];
            var indicealuno = 0;
            string opcaoUsuario = ObterOpcaoUsuario();
 
@@ -20,7 +20,7 @@ namespace Revisão
                 case "1":
                   Console.WriteLine("Infome o nome do Aluno:");
                   var aluno = new Aluno();
-                  aluno.Nome = Console.ReadLine();
+                  aluno.Name = Console.ReadLine();
 
                   Console.WriteLine("Informe a nota do aluno:");
 
@@ -33,12 +33,15 @@ namespace Revisão
                       throw new ArgumentException("Valor da nota deve ser decimal");
                   }
 
-                  alunos [indiceAluno] = aluno;
-                  indiceAluno++;
+                  alunos[ indicealuno] = aluno;
+                  indicealuno++; 
 
                    break;
                 case "2":
-                   //TODO: listar alunes 
+                   foreach(var a in alunos)
+                   {
+                      Console.WriteLine($"ALUNO: {a.Name} - NOTA: {a.Nota}");
+                   }
                    break;
                 case "3":
                 //TODO: calcular media geral
@@ -56,6 +59,7 @@ namespace Revisão
       private static string ObterOpcaoUsuario()
       {
 
+          Console.WriteLine();
           Console.WriteLine("Informe a opção desejada");
           Console.WriteLine("1- Inserir novo aluno");
           Console.WriteLine("2- Listar alunes");
