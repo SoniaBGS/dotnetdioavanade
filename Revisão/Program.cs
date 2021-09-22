@@ -9,14 +9,14 @@ namespace Revisão
         static void Main(string[] args)
         {
 
-           string opcaoUsuario = ObterOpcaoUsuario());
+           string opcaoUsuario = ObterOpcaoUsuario();
 
           while (opcaoUsuario.ToUpper() != "X")
           {
 
               switch (opcaoUsuario)
               {
-                case "1";:
+                case "1":
                    //T0DO: adiconar aluno
                    break;
                 case "2":
@@ -36,11 +36,11 @@ namespace Revisão
           Console.WriteLine("X- Sair");
           Console.WriteLine();
           
-          opcaoUsuario = ObterOpcaoUsuario();
+          opcaoUsuario = ObterOpcaoUsuario()
 
               }
 
-            private static string ObterOpcaoUsuario()
+         private static string =ObterOpcaoUsuario()
             {
 
           Console.WriteLine("Informe a opção desejada");
