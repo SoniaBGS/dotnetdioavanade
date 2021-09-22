@@ -4,7 +4,7 @@ namespace Revisão
 {
 
     class Program
-    {
+   {
 
         static void Main(string[] args)
         {
@@ -27,21 +27,16 @@ namespace Revisão
                    break;
                 default:
                    throw new ArgumentOutOfRangeException();
-           }       
-
-          Console.WriteLine("Informe a opção desejada");
-          Console.WriteLine("1- Inserir novo aluno");
-          Console.WriteLine("2- Listar alunes");
-          Console.WriteLine("3- Calcular média geral");
-          Console.WriteLine("X- Sair");
-          Console.WriteLine();
+           }     
           
-          opcaoUsuario = ObterOpcaoUsuario()
+          opcaoUsuario = ObterOpcaoUsuario();
 
-              }
+         }
+      }  
 
-         private static string =ObterOpcaoUsuario()
-            {
+      
+      private static string ObterOpcaoUsuario()
+      {
 
           Console.WriteLine("Informe a opção desejada");
           Console.WriteLine("1- Inserir novo aluno");
@@ -52,8 +47,8 @@ namespace Revisão
 
           string opcaoUsuario = Console.ReadLine();
           return opcaoUsuario;
-            }
-        }
-    }
+      }
+   
+   }
 }
 
